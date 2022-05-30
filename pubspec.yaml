@@ -1,4 +1,4 @@
-name: homework_01
+name: homework
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -73,7 +73,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/AvenirLTStd-Black.otf
+        - asset: assets/fonts/AvenirLTStd-Book.otf
+        - asset: assets/fonts/AvenirLTStd-Roman.otf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
@@ -85,5 +90,12 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  assets:
+    - assets/icons/Home.png
+    - assets/icons/message.png
+    - assets/icons/Notification.png
+    - assets/icons/Profile.png
+    - assets/icons/Stream.png
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

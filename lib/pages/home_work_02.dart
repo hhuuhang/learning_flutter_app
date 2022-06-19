@@ -202,7 +202,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             .toString()
                                             .isNotEmpty)
                                         ? Positioned(
-                                            top: 48,
+                                            top: 45,
                                             left: 42,
                                             child: Container(
                                               width: 28,
@@ -302,7 +302,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 }),
               ),
-            )
+            ),
           ],
         ),
       ),

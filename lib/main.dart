@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homework/pages/myHomePage.dart';
+import 'package:homework/pages/home_work_04.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +13,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Bài tập 02',
+      title: 'Homework',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      // home: const MyHomePage(),
+      // home: const TestParseJson(),
+      home: const Homework04(),
     );
   }
 }

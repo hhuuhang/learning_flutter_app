@@ -29,6 +29,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.4
+  dio: ^4.0.1
+  cached_network_image: ^3.1.0
+  image_gallery_saver: ^1.7.1
+  overlay_support: ^2.0.0
+  path_provider: ^2.0.5
+  json_serializable: ^6.2.0
+  percent_indicator: ^4.2.2
+  fluttertoast: ^8.0.9
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -38,6 +47,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -96,6 +106,10 @@ flutter:
     - assets/icons/Notification.png
     - assets/icons/Profile.png
     - assets/icons/Stream.png
+
+    - assets/json/users.json
+    - assets/json/chats.json
+
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

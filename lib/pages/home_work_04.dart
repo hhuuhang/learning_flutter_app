@@ -147,6 +147,7 @@ class _Homework04State extends State<Homework04> {
     return path;
   }
 
+// Show Toast in bottom of the screen when downloaded image
   showToast() {
     Fluttertoast.showToast(
       msg: "The image is downloaded",

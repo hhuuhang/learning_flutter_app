@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:homework/pages/TestParseJson.dart';
 import 'package:homework/pages/home_work_04.dart';
 
 void main() {
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyHomePage(),
-      // home: const TestParseJson(),
-      home: const Homework04(),
+      home: const TestParseJson(),
+      // home: const Homework04(),
     );
   }
 }

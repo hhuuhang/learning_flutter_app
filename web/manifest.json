@@ -1,11 +1,11 @@
 {
-    "name": "homework_01",
-    "short_name": "homework_01",
+    "name": "learning_flutter_app",
+    "short_name": "learning_flutter_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Flutter map and Gemini chatbot learning application.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

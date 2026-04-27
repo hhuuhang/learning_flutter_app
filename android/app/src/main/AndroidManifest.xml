@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.homework_01">
+    package="com.example.learning_flutter_app">
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
    <application
-        android:label="homework_01"
+        android:label="Map Chat"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
